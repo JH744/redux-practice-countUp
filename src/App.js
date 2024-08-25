@@ -24,12 +24,12 @@ function App() {
     <div className="App">
       <h1>카운트</h1>
       <h1>{count}</h1>
-      <button onClick={increase}>증가</button>
-      <button onClick={decrement}>감소</button>
+      <button onClick={increase}>+5증가</button>
+      <button onClick={decrement}>-2감소</button>
       <button onClick={login}>로그인</button>
       <Box />
       <h4>
-        {id} {password}
+        유저 아이디 비밀번호 {id} {password}
       </h4>
     </div>
   );
